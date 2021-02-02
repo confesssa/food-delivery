@@ -20,19 +20,22 @@ body {
   margin-bottom: 40px;
 }
 
-.search-input {
+.input {
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   border-radius: 2px;
-  height: 40px;
-  width: 690px;
   font-size: 16px;
   line-height: 24px;
-  color: #BFBFBF;
-  background-image: url(../assets/icons/home.svg);
+  padding: 8px;
   background-repeat: no-repeat;
   background-position: left 11px center;
   padding-left: 35px;
+  color: #BFBFBF;
+}
+
+.input-address {
+  width: 690px;
+  background-image: url(../assets/icons/home.svg);
 }
 
 .buttons {
@@ -73,4 +76,8 @@ body {
 
 .promo-text {
   max-width: 500px;
+}
+
+.input-search {
+  background-image: url(../assets/icons/input-search.svg);
 }
