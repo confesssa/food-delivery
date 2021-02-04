@@ -105,6 +105,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 44px;
 }
 
 .section-title {
