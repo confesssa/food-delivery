@@ -309,3 +309,64 @@ body {
     font-size: 18px;
   }
 }
+
+@media (max-width: 578px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .input-address {
+    order: 5;
+    margin-top: 15px;
+    flex: 1;
+  }
+
+  .promo {
+    background-image: none;
+  }
+
+  .promo-title {
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+  .footer-block {
+    align-items: flex-start;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-logo {
+    order: 1;
+    margin-right: 15px;
+  }
+
+  .social-links {
+    order: 2;
+  }
+}
